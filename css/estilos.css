@@ -1,0 +1,319 @@
+*{
+   margin: 0px;
+   padding: 0px;	 
+}
+
+/*Encabezado*/
+
+.header{
+   width: 100%;
+   height: 150px;
+   background: linear-gradient(#f7ff08 0%, #21ad11 50%, #00a3ef 80%);
+	
+}
+
+.bienvenido1{
+	background: #ccc;
+	background: linear-gradient(90deg, #000CAF, #05F70E);
+	font-family: system-ui;
+	text-align:center;
+	margin-top: 35px;
+	margin-left: 365px;
+	font-size: 35px;
+	position: absolute;
+
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip:text;
+
+}
+
+
+.animado{
+	display: flex;
+	width: 330px;
+	height: 40px;
+	
+	font-size: 40px;
+	line-height: 40px;
+    background: #ccc;
+	background: linear-gradient(90deg, #000CAF, #05F70E);
+    font-family: system-ui;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip:text;
+
+
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0px;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.animado ul{
+    list-style-type: none;
+    padding-left: 10px;
+    animation: cambiar 7s infinite;
+
+
+}
+
+ul, p{
+	margin: 0;
+}
+
+
+
+@keyframes cambiar{
+	0%{margin-top: 0;}
+	20%{margin-top: 0;}
+
+	25%{margin-top: -40px;}
+	50%{margin-top: -40px;}
+
+	55%{margin-top: -80px;}
+	80%{margin-top: -80px;}
+    
+    85%{margin-top: -40px;}
+    95%{margin-top: -40px;}
+
+}
+
+
+.aceptado{
+	color:#000;
+	position: absolute;
+}
+
+
+
+
+h1{
+	background: #ccc;
+	background: linear-gradient(90deg, #0059FF, #000);
+	font-family: system-ui;
+	text-align:center;
+	margin-top: 35px;
+	margin-left: 365px;
+	font-size: 35px;
+	position: absolute;
+
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip:text;
+}
+
+.header img{
+	 margin-left: 810px;
+	 margin-top: 30px;
+	 border-radius: 50%;
+	 position: absolute;
+}
+
+
+
+/*BOTONES E ICONOS*/
+
+.header .button{
+	color: #000AFE;
+	margin: auto;
+	margin-left: 925px;
+	margin-top: 155px;
+	font-size: 25px;
+	text-decoration: none;
+	position: absolute;
+
+}
+
+.header .button2{
+	color: #FF0000;
+	margin: auto;
+	margin-left: 965px;
+	margin-top: 151px;
+	font-size: 32px;
+	text-decoration: none;
+	position: absolute;
+}
+
+
+body .button3{
+	color:#fff;
+	margin: auto;
+	margin-left: 80px;
+	margin-top: -125px;
+	font-size: 90px;
+	text-decoration: none;
+	position: absolute;
+}
+
+body .button4{
+	color: #FFF;
+	margin: auto;
+	margin-left: 480px;
+	margin-top: -60px;
+	font-size: 35px;
+	text-decoration: none;
+	position: absolute;
+}
+
+
+.contenedor{
+    background: #F5B041;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 330px;
+    height: 329px;
+    border-radius: 7px;
+    border-color:  #18FF00;
+    position: absolute;
+    
+}
+
+
+
+
+.contenedor h2{
+	text-align: center;
+	color: #000;
+	font-size: 25px;
+}
+
+/*Segundo apartado*/
+
+body .contenedor2{
+	background: #fff;
+	margin: auto;
+	margin-top: 20px;
+	margin-left: 385px;
+	height: 115px;
+	border-radius: 7px;
+	position: absolute;
+}
+
+
+
+
+
+body .contenedor2 li{
+	color: #000;
+	list-style-type: none;
+	margin-top: 7px;
+}
+
+/*Tercer apartado*/
+
+body .contenedor3{
+	margin: auto;
+	margin-top: 500px;
+	width: 35%;
+	height: 150px;
+	background: #BEFC24;
+	border-radius: 5px;
+	border-color: #00E52A;
+}
+
+body .contenedor4{
+	margin-top: 500px;
+	width: 100%;
+	height: 200px;
+	background: #fff;
+
+}
+
+
+.contenedor4 h3{
+	
+	background: #ccc;
+	background: linear-gradient(90deg, #00ffff, #000);
+	font-family: system-ui;
+	text-align:center;
+	font-size: 35px;
+
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip:text;
+	
+}
+
+
+.contenedor4-1{
+	width: 100%
+	height: 200px;
+	margin: auto;
+	margin-top: 10px;
+	margin-right: 650px;
+	background: #fff;
+}
+
+.contenedor4-1 iframe{
+	margin-left: 10px;
+	position: absolute;
+	border-color: #00FFF7;
+}
+
+
+
+.contenedor4-1 .iframe2{
+	margin-left: 540px;
+    position: absolute;
+    border-color: #00FFF7;
+}
+
+.contenedor4-1 .iframe3{
+	margin-top: 380px;
+	position: absolute;
+	border-color: #00FFF7;
+}
+
+.contenedor4-1 .iframe4{
+	margin-left: 540px;
+	margin-top: 380px;
+	border-color:#00FFF7;
+}
+
+
+
+
+
+body .linea3{
+	color: #000;
+	margin-top: 380px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Scrolball personalizado*/
+
+body::-webkit-scrollbar{
+	width: 10px;
+	background: #3498DB;
+}
+
+
+body::-webkit-scrollbar-thumb{
+	background: #FFE900;
+	border-radius: 4px;
+	border-right: 1px solid #F1C40F;
+}
